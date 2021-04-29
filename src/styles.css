@@ -1,0 +1,31 @@
+body {
+  background-color: lightblue;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.checked {
+  background-color: green;
+}
+.bombed {
+  background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+}
+.App {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+.board {
+  display: grid;
+  grid-template-rows: repeat(10, 40px);
+  grid-template-columns: repeat(10, 40px);
+  background-color: #fff;
+}
+button {
+  margin: auto;
+}
+p {
+  width: 400px;
+}
