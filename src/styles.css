@@ -17,6 +17,8 @@ body {
 }
 .bombed {
   background-image: url("https://img.icons8.com/emoji/48/000000/bomb-emoji.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .App {
   text-align: center;
