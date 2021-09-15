@@ -11,6 +11,7 @@ export default function App() {
         magic.push(temp);
       }
     }
+    console.log(magic);
     setBombsArray(magic);
   }, [flag]);
   const arr = [];
@@ -55,7 +56,7 @@ export default function App() {
       </div>
       <h3>{result}</h3>
       <h3>Score: {clicked.length}</h3>
-      {clicked.length > 0 ? (
+      {clicked.length > 0 || result ? (
         <button
           onClick={() => {
             setBombsArray([]);
